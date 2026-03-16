@@ -22,3 +22,8 @@ def check_password_strength(password):
         strength += 1
     
     return strength
+
+def simple_password(length=8):
+    simple_charset = config.LOWERCASE + config.UPPERCASE + config.DIGITS
+    password = ''.join(random.choice(simple_charset) for _ in range(length))
+    return password
