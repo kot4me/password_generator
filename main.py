@@ -1,10 +1,10 @@
-# main.py - Главный файл генератора паролей
+ # main.py - Главный файл генератора паролей
 import utils
 import config
 
 def main():
     print("=" * 50)
-    print("           ГЕНЕРАТОР ПАРОЛЕЙ")
+    print("     ГЕНЕРАТОР ПАРОЛЕЙ")
     print("=" * 50)
     
     while True:
